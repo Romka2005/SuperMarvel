@@ -1,0 +1,101 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: rgb(43, 43, 43);
+	color: white;
+}
+.main{
+	font-size: 40px;
+	color: red;
+}
+.mother{
+	display: flex;
+	background: white;
+	width: 1300px;
+	height: 250px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+img{
+	display: block;
+	width: 100px;	
+	
+}
+.mother div{
+	width: 260px;
+	height: 150px;
+	display: flex;
+	justify-content: flex-end;
+	padding: 3px;
+}
+.text{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.text h1{
+	font-size: 15px;
+}
+h4{
+	font-size: 12px;
+	position: relative;
+	top: -50px;
+	left: 0;
+}
+
+.child1{
+	background: rgb(126,0,134);
+	background: linear-gradient(0deg, rgba(126,0,134,1) 0%, rgba(131,0,200,1) 37%, rgba(0,108,255,1) 100%);
+}
+.child1 img{
+	position: relative;
+	top: -15px;
+	left: 5px;
+}
+.child2{
+	background: rgb(128,0,0);
+	background: linear-gradient(0deg, rgba(128,0,0,1) 0%, rgba(200,0,34,1) 37%, rgba(255,0,0,1) 100%);
+}
+.child2 img{
+	position: relative;
+	top: -10px;
+	left: 5px;
+}
+.child3{
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,0,74,1) 37%, rgba(105,0,125,1) 100%);
+}
+.child3 img{
+	position: relative;
+	top: -13px;
+	left: 5px;
+}
+.child4{
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(92,0,0,1) 39%, rgba(255,0,0,1) 100%);
+}
+.child4 img{
+	position: relative;
+	top: 0px;
+	left: -10px;
+}
+
+@media (max-width:1300px){
+	.mother{
+		width: 600px;
+		height: 400px;
+	}
+}
+@media (max-width:600px){
+	.mother{
+		width: 350px;
+		height: 750px;
+	}
+}
+@media (max-width:350px){
+	.mother{
+		width: 300px;
+	}
+}
