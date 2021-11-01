@@ -36,10 +36,10 @@ img{
 
 }
 .text h1{
-	font-size: 15px;
+	font-size: 16px;
 }
 h4{
-	font-size: 12px;
+	font-size: 14px;
 	position: relative;
 	top: -50px;
 	left: 0;
@@ -79,7 +79,7 @@ h4{
 .child4 img{
 	position: relative;
 	top: 0px;
-	left: -13px;
+	left: -10px;
 }
 
 @media (max-width:1300px){
