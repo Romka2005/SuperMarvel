@@ -21,7 +21,7 @@ body{
 img{
 	display: block;
 	width: 100px;	
-	
+	object-fit: contain;
 }
 .mother div{
 	width: 260px;
@@ -36,10 +36,10 @@ img{
 
 }
 .text h1{
-	font-size: 16px;
+	font-size: 15px;
 }
 h4{
-	font-size: 14px;
+	font-size: 12px;
 	position: relative;
 	top: -50px;
 	left: 0;
@@ -51,7 +51,7 @@ h4{
 }
 .child1 img{
 	position: relative;
-	top: -15px;
+	top: -20px;
 	left: 5px;
 }
 .child2{
@@ -60,7 +60,7 @@ h4{
 }
 .child2 img{
 	position: relative;
-	top: -10px;
+	top: -20px;
 	left: 5px;
 }
 .child3{
@@ -69,7 +69,7 @@ h4{
 }
 .child3 img{
 	position: relative;
-	top: -13px;
+	top: -23px;
 	left: 5px;
 }
 .child4{
@@ -78,8 +78,8 @@ h4{
 }
 .child4 img{
 	position: relative;
-	top: 0px;
-	left: -10px;
+	top: -50px;
+	left: -15px;
 }
 
 @media (max-width:1300px){
